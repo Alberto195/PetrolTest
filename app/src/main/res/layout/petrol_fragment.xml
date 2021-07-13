@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.petroltest.ui.PetrolFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_num_category"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/petrol_in"/>
+
+        <EditText
+            android:id="@+id/petrol_in"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="14dp"
+
+            android:hint="@string/range"
+            android:textSize="15sp"
+
+            android:gravity="center_horizontal"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/pox"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/petrol_out"/>
+
+        <EditText
+            android:id="@+id/petrol_out"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="14dp"
+
+            android:hint="@string/range"
+            android:textSize="15sp"
+
+            android:gravity="center_horizontal"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="@string/remainder"/>
+
+        <TextView
+            android:id="@+id/result"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+
+            android:textStyle="bold"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

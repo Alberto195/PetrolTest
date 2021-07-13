@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PetrolTest</string>
+    <string name="petrol_in">Приход дизельного топлива за сутки, л</string>
+    <string name="range">Целое или дробное число в диапазоне 0-100000</string>
+    <string name="remainder">Остаток:</string>
+    <string name="petrol_out">Расход дизельного топлива за сутки, л</string>
+</resources>
